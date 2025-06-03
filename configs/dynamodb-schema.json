@@ -1,0 +1,54 @@
+{
+  "MedicalEmbeddings": {
+    "TableName": "MedicalEmbeddings",
+    "KeySchema": [
+      {
+        "AttributeName": "chunk_id",
+        "KeyType": "HASH"
+      }
+    ],
+    "AttributeDefinitions": [
+      {
+        "AttributeName": "chunk_id",
+        "AttributeType": "S"
+      }
+    ],
+    "BillingMode": "ON_DEMAND"
+  },
+  "QueryCache": {
+    "TableName": "QueryCache",
+    "KeySchema": [
+      {
+        "AttributeName": "query_hash",
+        "KeyType": "HASH"
+      }
+    ],
+    "AttributeDefinitions": [
+      {
+        "AttributeName": "query_hash",
+        "AttributeType": "S"
+      }
+    ],
+    "BillingMode": "ON_DEMAND",
+    "TimeToLiveSpecification": {
+      "AttributeName": "ttl",
+      "Enabled": true
+    }
+  },
+  "DocumentMetadata": {
+    "TableName": "DocumentMetadata",
+    "KeySchema": [
+      {
+        "AttributeName": "document_id",
+        "KeyType": "HASH"
+      }
+    ],
+    "AttributeDefinitions": [
+      {
+        "AttributeName": "document_id",
+        "AttributeType": "S"
+      }
+    ],
+    "BillingMode": "ON_DEMAND"
+  }
+}
