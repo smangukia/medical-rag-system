@@ -39,7 +39,7 @@ The Medical Information RAG System combines semantic search with natural languag
 | **API Layer** | AWS API Gateway, RESTful endpoints |
 | **Backend** | AWS Lambda (Python 3.9), VPC-enabled |
 | **Database** | Amazon DynamoDB (3 tables, 6,084+ records) |
-| **Storage** | Amazon S3 (3 buckets, medical data) |
+| **Storage** | Amazon S3 (2 buckets, medical data) |
 | **AI/ML Processing** | SageMaker Notebook (ml.t3.medium), sentence-transformers |
 | **AI Enhancement** | Groq API (llama-3.1-8b-instant) |
 | **VPC Endpoints** | SageMaker API, SageMaker Runtime |
@@ -268,7 +268,6 @@ Pre-configured CloudWatch Log Insights queries:
 
 ### Quality Assurance
 - **Code Reviews**: Peer review process for all changes
-- **Automated Testing**: CI/CD pipeline with comprehensive test suite
 - **Performance Monitoring**: Continuous performance tracking
 - **Error Tracking**: Comprehensive error logging and analysis
 
