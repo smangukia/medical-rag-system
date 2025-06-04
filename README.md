@@ -9,7 +9,7 @@ A production-ready, AI-powered medical information retrieval system that provide
 
 ## Demo
 
-[]
+https://github.com/user-attachments/assets/92f0775f-9199-408c-8322-c83d6655dee5
 
 ## Overview
 
@@ -28,7 +28,8 @@ The Medical Information RAG System combines semantic search with natural languag
 ## Architecture
 
 ### System Architecture Diagram
-architecture diagram
+
+![Mid term AWS architecture-light](https://github.com/user-attachments/assets/63e2d359-438b-4aa0-aab9-3e454065bccc)
 
 ### Technical Stack
 
