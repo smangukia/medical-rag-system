@@ -9,7 +9,7 @@ A production-ready, AI-powered medical information retrieval system that provide
 
 ## Demo
 
-https://github.com/user-attachments/assets/92f0775f-9199-408c-8322-c83d6655dee5
+https://github.com/user-attachments/assets/dad8b3d0-0e74-44f6-b702-785c40d42883
 
 ## Overview
 
