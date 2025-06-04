@@ -20,7 +20,7 @@ The Medical Information RAG System combines semantic search with natural languag
 - **Advanced AI Integration**: Hybrid RAG with semantic search + LLM enhancement
 - **High Performance**: Sub-3-second response times with intelligent caching
 - **Enterprise Security**: VPC isolation, encryption, and comprehensive monitoring
-- **Cost Optimized**: Operates within AWS Free Tier ($0.46/month)
+- **Cost Optimized**: Operates within AWS Free Tier
 - **Responsive Design**: Professional medical interface optimized for all devices
 - **Intelligent Search**: Intent recognition and medical condition prioritization
 - **Production Monitoring**: CloudWatch dashboards, alarms, and analytics
